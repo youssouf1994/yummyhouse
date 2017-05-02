@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
-
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+*/
 /*
 	Strongly Typed by HTML5 UP
 	html5up.net | @ajlkn
@@ -1069,11 +1069,16 @@
 /* Basic */
 
 	body {
-		background: #f0f0f0;
+		/*background: #f0f0f0;*/
+		color:black;
+		background-color:white;
+		background-image:url(images/image_de_fond.jpg);
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #777;
+		/*color: #777;*/
 	}
+
+
 
 		body.is-loading * {
 			-moz-transition: none !important;
@@ -1548,7 +1553,7 @@
 
 	#header-wrapper {
 		position: relative;
-		background: #fff;
+		background: transparent;
 		text-align: center;
 	}
 
@@ -1559,7 +1564,7 @@
 	#banner-wrapper {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: transparent;
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
@@ -1579,7 +1584,7 @@
 	#features-wrapper {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: transparent;
 		text-align: center;
 	}
 
@@ -1594,14 +1599,14 @@
 	#main-wrapper {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: transparent;
 	}
 
 	#footer-wrapper {
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: transparent;
 	}
 
 		#footer-wrapper form input[type="text"],
